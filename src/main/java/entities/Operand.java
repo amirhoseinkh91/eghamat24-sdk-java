@@ -1,0 +1,31 @@
+package entities;
+
+/**
+ * @author amir
+ * @since 11/9/19
+ */
+public enum Operand {
+
+    IS_EQUAL_TO,
+    IS_EQUAL_TO_OR_NULL,
+    IS_NULL,
+    IS_NOT_NULL,
+    IS_NOT_EQUAL_TO,
+    START_WITH,
+    DOES_NOT_CONTAINS,
+    CONTAINS,
+    ENDS_WITH,
+    IN,
+    NOT_IN,
+    BETWEEN,
+    IS_GREATER_THAN_OR_EQUAL_TO,
+    IS_GREATER_THAN_OR_NULL,
+    IS_GREATER_THAN,
+    IS_LESS_THAN_OR_EQUAL_TO,
+    IS_LESS_THAN,
+    IS_AFTER_THAN_OR_EQUAL_TO,
+    IS_AFTER_THAN,
+    IS_BEFORE_THAN_OR_EQUAL_TO,
+    IS_BEFORE_THAN
+
+}
